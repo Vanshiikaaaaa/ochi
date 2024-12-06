@@ -6,7 +6,7 @@ function LandingPage() {
   return (
     <div data-scroll data-scroll-section data-scroll-speed="-0.3" className=' sm:w-full w-[100%] sm:h-screen h-[70vh] bg-zinc-800 pt-2' id='home'>
      <div className="textstructure sm:mt-44 mt-28 pl-10">
-      {["we create", "eye opening", "presentations"].map((item, index)=>{
+      {["we help you", "grow in the", "digital space"].map((item, index)=>{
        return <div className="masker">
         <div className='w-fit flex items-center'>
         <h1 className='uppercase sm:text-[6vw] text-[8vw]  leading-[9vw] sm:leading-[6.2vw] tracking-tighter font-medium'>{item}</h1>

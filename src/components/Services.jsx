@@ -5,6 +5,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { HiArrowSmLeft } from "react-icons/hi";
 import { HiArrowSmRight } from "react-icons/hi";
+import  videoEditing  from '../assets/videoEditing.jpg'
 
 
 
@@ -65,13 +66,13 @@ function Services() {
       onSwiper={(swiper) => (swiperRef.current = swiper)}
     >
         
-      <SwiperSlide className="text-white min-h-[30vh] border-2 mt-8 bg-zinc-800 rounded-xl relative"> <a href="" className="capitalize absolute bottom-0 right-0 m-4 border-2 rounded-3xl px-2 py-1 ">recent work</a></SwiperSlide>
-      <SwiperSlide className="text-white min-h-[30vh] border-2 mt-8 bg-zinc-800 rounded-xl  "><a href="" className="capitalize absolute bottom-0 right-0 m-4 border-2 rounded-3xl px-2 py-1 ">recent work</a></SwiperSlide>
-      <SwiperSlide className="text-white min-h-[30vh] border-2 mt-8 bg-zinc-800 rounded-xl  "><a href="" className="capitalize absolute bottom-0 right-0 m-4 border-2 rounded-3xl px-2 py-1 ">recent work</a></SwiperSlide>
-      <SwiperSlide className="text-white min-h-[30vh] border-2 mt-8 bg-zinc-800 rounded-xl  "><a href="" className="capitalize absolute bottom-0 right-0 m-4 border-2 rounded-3xl px-2 py-1 ">recent work</a></SwiperSlide>
-      <SwiperSlide className="text-white min-h-[30vh] border-2 mt-8 bg-zinc-800 rounded-xl  "><a href="" className="capitalize absolute bottom-0 right-0 m-4 border-2 rounded-3xl px-2 py-1 ">recent work</a></SwiperSlide>
-      <SwiperSlide className="text-white min-h-[30vh] border-2 mt-8 bg-zinc-800 rounded-xl  "><a href="" className="capitalize absolute bottom-0 right-0 m-4 border-2 rounded-3xl px-2 py-1 ">recent work</a></SwiperSlide>
-      <SwiperSlide className="text-white min-h-[30vh] border-2 mt-8 bg-zinc-800 rounded-xl  "><a href="" className="capitalize absolute bottom-0 right-0 m-4 border-2 rounded-3xl px-2 py-1 ">recent work</a></SwiperSlide>
+      <SwiperSlide className="text-white min-h-[30vh] border-2 mt-8 bg-zinc-800 rounded-xl relative"> <img className="rounded-xl w-full h-full object-cover" src={videoEditing} alt="" /><h2 className="absolute bottom-0 left-0 text-lg ml-2 mb-3 font-semibold">Video Editing</h2><a href="" className="capitalize absolute bottom-0 right-0 m-4 border-2 rounded-3xl px-2 py-1 ">recent work</a></SwiperSlide>
+      <SwiperSlide className="text-white min-h-[30vh] border-2 mt-8 bg-zinc-800 rounded-xl relative"> <img className="rounded-xl w-full h-full object-cover" src={videoEditing} alt="" /><h2 className="absolute bottom-0 left-0 text-lg ml-2 mb-3 font-semibold">Video Editing</h2><a href="" className="capitalize absolute bottom-0 right-0 m-4 border-2 rounded-3xl px-2 py-1 ">recent work</a></SwiperSlide>
+      <SwiperSlide className="text-white min-h-[30vh] border-2 mt-8 bg-zinc-800 rounded-xl relative"> <img className="rounded-xl w-full h-full object-cover" src={videoEditing} alt="" /><h2 className="absolute bottom-0 left-0 text-lg ml-2 mb-3 font-semibold">Video Editing</h2><a href="" className="capitalize absolute bottom-0 right-0 m-4 border-2 rounded-3xl px-2 py-1 ">recent work</a></SwiperSlide>
+      <SwiperSlide className="text-white min-h-[30vh] border-2 mt-8 bg-zinc-800 rounded-xl relative"> <img className="rounded-xl w-full h-full object-cover" src={videoEditing} alt="" /><h2 className="absolute bottom-0 left-0 text-lg ml-2 mb-3 font-semibold">Video Editing</h2><a href="" className="capitalize absolute bottom-0 right-0 m-4 border-2 rounded-3xl px-2 py-1 ">recent work</a></SwiperSlide>
+      <SwiperSlide className="text-white min-h-[30vh] border-2 mt-8 bg-zinc-800 rounded-xl relative"> <img className="rounded-xl w-full h-full object-cover" src={videoEditing} alt="" /><h2 className="absolute bottom-0 left-0 text-lg ml-2 mb-3 font-semibold">Video Editing</h2><a href="" className="capitalize absolute bottom-0 right-0 m-4 border-2 rounded-3xl px-2 py-1 ">recent work</a></SwiperSlide>
+      <SwiperSlide className="text-white min-h-[30vh] border-2 mt-8 bg-zinc-800 rounded-xl relative"> <img className="rounded-xl w-full h-full object-cover" src={videoEditing} alt="" /><h2 className="absolute bottom-0 left-0 text-lg ml-2 mb-3 font-semibold">Video Editing</h2><a href="" className="capitalize absolute bottom-0 right-0 m-4 border-2 rounded-3xl px-2 py-1 ">recent work</a></SwiperSlide>
+   
     </Swiper>
     </div>
       

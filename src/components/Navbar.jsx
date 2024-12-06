@@ -1,13 +1,17 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+
+
 import { RxHamburgerMenu } from "react-icons/rx";
+
+{/* <RxHamburgerMenu /> */}
 
 
 function Navbar() {
   return (
     <div className= " fixed z-[999] w-[100%] px-9 sm:px-12 py-8 flex justify-between items-center" >
       <div className='logo'><h3 className=' text-xl sm:text-2xl font-medium'>MARCATIX</h3></div>
-      <div className='w-3 h-3 sm:hidden block'><RxHamburgerMenu /></div>
+      <div className='w-3 h-3 sm:hidden block items-center'><RxHamburgerMenu /></div>
       <div className='links sm:flex hidden gap-10'>
       {[
     { name: "Home", href: "home" },
