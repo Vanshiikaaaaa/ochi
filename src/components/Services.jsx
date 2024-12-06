@@ -29,9 +29,7 @@ function Services() {
     <div data-scroll data-scroll-section data-scroll-speed = "-.1"  id="services" className=" sm:w-full w-[100%] sm:h-[80vh] h-[90vh]  pb-20 sm:-mt-20 -mt-24 bg-[#cbe863] rounded-tl-3xl rounded-tr-3xl text-black">
         <h1 className="capitalize text-black font-medium sm:text-[3vw]  text-[8vw] text-left mb-4 p-10 leading-none">Here's What we offer:-</h1>
       <h1 className="sm:text-[1.4vw] text-[5vw] sm:leading-none leading-5 px-10 tracking-tighter">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem aut
-        repudiandae, nemo dolor suscipit corporis assumenda id provident nostrum
-        ut, quam voluptate quidem!
+        Have a look at the services we provide and do connect if you need one!!
       </h1>
 
       <div className="flex gap-2 mt-14 p-2 -mb-5 justify-end">
